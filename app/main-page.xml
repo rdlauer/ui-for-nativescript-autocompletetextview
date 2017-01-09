@@ -4,17 +4,17 @@
 
     <StackLayout class="stack-layout">
 		<Label text="Artist:" class="label" />
-		<au:RadAutoCompleteTextView items="{{ items }}" suggestMode="Append" displayMode="Token">
+		<au:RadAutoCompleteTextView items="{{ items }}" suggestMode="Suggest" displayMode="Token">
 			<au:RadAutoCompleteTextView.suggestionView>
 				<au:SuggestionView suggestionViewHeight="300">
 					<au:SuggestionView.suggestionItemTemplate>
-						<StackLayout>
+						<!--<StackLayout>
 							<Label text="{{ text }}" />
-						</StackLayout>
-                        <!--<StackLayout orientation="horizontal" margin="5">
+						</StackLayout>-->
+                        <StackLayout orientation="horizontal" margin="5">
                             <Image src="{{ image }}" width="50"/>
                             <Label text="{{ text }}" marginLeft="10" />
-                        </StackLayout>-->
+                        </StackLayout>
 					</au:SuggestionView.suggestionItemTemplate>
 				</au:SuggestionView>
 			</au:RadAutoCompleteTextView.suggestionView>
