@@ -7,14 +7,6 @@ purpose of the file is to pass control to the app’s first module.
 require("./bundle-config");
 var application = require("application");
 
-var fresco = require("nativescript-fresco");
-
-if (application.android) {
-    application.onLaunch = function (intent) {
-        fresco.initialize();
-    };
-}
-
 application.start({ moduleName: "main-page" });
 
 /*

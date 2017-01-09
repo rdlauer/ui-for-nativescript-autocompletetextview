@@ -1,28 +1,20 @@
-<Page xmlns:au="nativescript-telerik-ui-pro/autocomplete" xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:f="nativescript-fresco" loaded="pageLoaded">
+<Page xmlns:au="nativescript-telerik-ui-pro/autocomplete" xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
 
 	<ActionBar title="RadAutoCompleteTextView Demo" class="action-bar" />
 
     <StackLayout class="stack-layout">
 		<Label text="Artist:" class="label" />
-		<au:RadAutoCompleteTextView items="{{ items }}" suggestMode="Suggest" displayMode="Token">
+		<au:RadAutoCompleteTextView items="{{ items }}" suggestMode="Append" displayMode="Token">
 			<au:RadAutoCompleteTextView.suggestionView>
 				<au:SuggestionView suggestionViewHeight="300">
 					<au:SuggestionView.suggestionItemTemplate>
-                        <StackLayout orientation="horizontal" margin="5">
-                            <ios>
-								<Image src="{{ image }}" width="50"/>
-							</ios>
-							<android>
-								<f:FrescoDrawee
-								horizontalAlignment="stretch"
-								height="50" width="50"
-								imageUri="http://placekitten.com/g/50/50"/>
-							</android>
-                            <Label text="{{ text }}" marginLeft="10" />
-                        </StackLayout>
-						<!--<StackLayout>
+						<StackLayout>
 							<Label text="{{ text }}" />
-						</StackLayout>-->
+						</StackLayout>
+                        <!--<StackLayout orientation="horizontal" margin="5">
+                            <Image src="{{ image }}" width="50"/>
+                            <Label text="{{ text }}" marginLeft="10" />
+                        </StackLayout>-->
 					</au:SuggestionView.suggestionItemTemplate>
 				</au:SuggestionView>
 			</au:RadAutoCompleteTextView.suggestionView>
