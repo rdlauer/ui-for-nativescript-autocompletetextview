@@ -1,4 +1,4 @@
-<Page xmlns:au="nativescript-telerik-ui-pro/autocomplete" xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+<Page xmlns:au="nativescript-pro-ui/autocomplete" xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
 
 	<ActionBar title="RadAutoCompleteTextView Demo" class="action-bar" />
 

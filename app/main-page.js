@@ -1,6 +1,6 @@
 var Observable = require("data/observable").Observable;
 var ObservableArray = require("data/observable-array").ObservableArray;
-var autocompleteModule = require("nativescript-telerik-ui-pro/autocomplete");
+var autocompleteModule = require("nativescript-pro-ui/autocomplete");
 
 var page;
 var pageData = new Observable();
