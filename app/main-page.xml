@@ -19,6 +19,7 @@
 				</au:SuggestionView>
 			</au:RadAutoCompleteTextView.suggestionView>
 		</au:RadAutoCompleteTextView>
+		<Button tap="buttonTap" text="Navigate to Next View" />
 	</StackLayout>
 
 </Page>
