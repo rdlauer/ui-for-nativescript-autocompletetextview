@@ -1,6 +1,6 @@
 var Observable = require('data/observable').Observable;
 var ObservableArray = require('data/observable-array').ObservableArray;
-var autocompleteModule = require('nativescript-pro-ui/autocomplete');
+var autocompleteModule = require('nativescript-ui-autocomplete');
 var frameModule = require('ui/frame');
 
 var page;
