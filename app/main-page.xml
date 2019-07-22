@@ -4,7 +4,7 @@
 
     <StackLayout class="stack-layout">
 		<Label text="Artist:" class="label" />
-		<au:RadAutoCompleteTextView items="{{ items }}" suggestMode="Suggest" displayMode="Token">
+		<au:RadAutoCompleteTextView items="{{ items }}" suggestMode="Suggest" displayMode="Tokens">
 			<au:RadAutoCompleteTextView.suggestionView>
 				<au:SuggestionView suggestionViewHeight="300">
 					<au:SuggestionView.suggestionItemTemplate>
@@ -19,7 +19,7 @@
 				</au:SuggestionView>
 			</au:RadAutoCompleteTextView.suggestionView>
 		</au:RadAutoCompleteTextView>
-		<Button tap="buttonTap" text="Navigate to Next View" />
+		<!-- <Button tap="buttonTap" text="Navigate to Next View" /> -->
 	</StackLayout>
 
 </Page>
